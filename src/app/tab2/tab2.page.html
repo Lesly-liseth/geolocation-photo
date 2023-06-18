@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="custom-toolbar">
+    <ion-title>
+      Imágenes guardadas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-content">
+  <div class="background-image"></div>
+  <div class="container ion-align-items-center ion-justify-content-center">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2" *ngFor="let img of data" style="border: 4px solid rgb(219, 24, 190);">
+          <ion-img [src]="img.url"></ion-img>
+          <p>LATITUD: {{ img.latitude }}</p>
+          <p>LONGITUD: {{ img.longitude }}</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+
+
+
