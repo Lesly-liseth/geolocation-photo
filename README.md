@@ -2,6 +2,9 @@
 
 ## Screenshots del funcionamiento de la aplicacion
 
+Autores
+Lesly Herrera
+
 ##
 ![Splash Screem](Readme/imagen1.jpg)
 
