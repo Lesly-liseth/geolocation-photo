@@ -2,6 +2,7 @@
 
 ## Screenshots del funcionamiento de la aplicacion
 
+##
 ![Splash Screem](Readme/imagen1.jpg)
 
 ![Pantalla de tomar la foto](Readme/imagen2.jpg)
